@@ -45,7 +45,7 @@ All images were captured in real-world underground parking garages and have been
 * **📊 精细化标注**: 提供了5个像素级标注类别，远超同类公开数据集，有助于进行更深入的多类别分割研究。
 * **💡 多样化采集条件**: 图像在不同光照条件（明亮与昏暗）下、使用多种相机设备拍摄，旨在提升模型的鲁棒性和泛化能力。
 * **🖼️ 高分辨率图像**: 原始图像分辨率较高（普遍在 707×1039 到 779×1145 像素之间），满足现代计算机视觉模型的输入要求。
-* **📦 数据增强**: 提供了包含3336张图像的增强数据集，以支持更稳健的模型训练。
+
 
 ---
 </details>
@@ -108,8 +108,7 @@ All images were manually annotated at the pixel level using LabelMe 5.3.1. Compa
 
 ### 3. Dataset Scale and Composition
 
-* **Original Images**: 576
-* **Augmented Images**: 3,336
+* **Original Images**: 288
 * **Resolution**: Mainly ranges from 707×1039 to 779×1145 pixels.
 
 While smaller in image count than large-scale datasets like Cityscapes, the scale of RDS is considered adequate and appropriate for its specialized vertical domain.
@@ -120,7 +119,7 @@ Even the least frequent class (**Exposed Rebar**) accounts for approximately 2% 
 
 ### 5. Data Augmentation
 
-To enhance model robustness and generalization, the 576 original images were systematically augmented to create the final training set of 3,336 images. The techniques used include:
+To enhance model robustness and generalization, the 288 original images were systematically augmented to create the final training set of 3,336 images. The techniques used include:
 
 * Random Cropping
 * Brightness Adjustments
@@ -150,8 +149,7 @@ To enhance model robustness and generalization, the 576 original images were sys
 
 ### 3. 数据集规模与构成
 
-* **原始图像数量**: 576 张
-* **增强后图像数量**: 3336 张
+* **原始图像数量**: 288 张
 * **图像分辨率**: 主要介于 707×1039 ~ 779×1145 像素之间。
 
 虽然图像总数少于 Cityscapes 等大型数据集，但RDS的规模对于其高度垂直的专业领域是充足且合理的。
@@ -162,7 +160,7 @@ To enhance model robustness and generalization, the 576 original images were sys
 
 ### 5. 数据增强
 
-为了提升模型的鲁棒性和泛化能力，我们对576张原始图像系统地应用了数据增强技术，最终生成了包含3336张图像的训练集。采用的增强方法包括：
+为了提升模型的鲁棒性和泛化能力，我们对288张原始图像系统地应用了数据增强技术，最终生成了包含3336张图像的训练集。采用的增强方法包括：
 
 * 随机裁剪 (Random Cropping)
 * 亮度调整 (Brightness Adjustments)
