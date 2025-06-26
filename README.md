@@ -2,7 +2,7 @@
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/945395789/RDS_Dataset?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/945395789/RDS_Dataset?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/945395789/RDS_Dataset?style=for-the-badge)
 
-The **RDS (Reinforced-concrete Damage Segmentation) Dataset** is a high-quality image dataset designed for the semantic segmentation of damage in reinforced concrete (RC) structures. This dataset focuses on common structural defects arising from rebar corrosion, providing a valuable resource for developing and evaluating computer vision models.
+The **RDS (Rust-induced Damage Segmentation) Dataset** is a high-quality image dataset designed for the semantic segmentation of damage in reinforced concrete (RC) structures. This dataset focuses on common structural defects arising from rebar corrosion, providing a valuable resource for developing and evaluating computer vision models.
 
 All images were captured in real-world underground parking garages and have been meticulously annotated manually at the pixel level.
 
@@ -17,7 +17,7 @@ All images were captured in real-world underground parking garages and have been
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/945395789/RDS_Dataset?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/945395789/RDS_Dataset?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/945395789/RDS_Dataset?style=for-the-badge)
 
-**RDS (Reinforced-concrete Damage Segmentation) Dataset** 是一个专为钢筋混凝土（RC）结构损伤语义分割任务设计的高质量图像数据集。该数据集专注于由钢筋腐蚀引起的常见结构缺陷，为开发和评估计算机 vision 模型提供了宝贵的资源。
+**RDS (Rust-induced Damage Segmentation) Dataset** 是一个专为钢筋混凝土（RC）结构损伤语义分割任务设计的高质量图像数据集。该数据集专注于由钢筋腐蚀引起的常见结构缺陷，为开发和评估计算机 vision 模型提供了宝贵的资源。
 
 所有图像均在真实世界的地下停车场环境中采集，并经过精细的像素级手动标注。
 
